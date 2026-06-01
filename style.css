@@ -611,3 +611,151 @@ footer {
         margin-left: 50px;
     }
 }
+/* =========================
+   SCROLL REVEAL
+========================= */
+
+.project-card,
+.research-item,
+.education-card,
+.timeline-item,
+.publication-card {
+
+    opacity: 0;
+
+    transform: translateY(30px);
+
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.show {
+
+    opacity: 1;
+
+    transform: translateY(0);
+}
+
+/* =========================
+   ACTIVE NAV LINK
+========================= */
+
+.navbar a.active {
+
+    color: var(--primary-light);
+
+    font-weight: 700;
+}
+
+/* =========================
+   BACK TO TOP BUTTON
+========================= */
+
+#backToTop {
+
+    position: fixed;
+
+    bottom: 25px;
+    right: 25px;
+
+    width: 55px;
+    height: 55px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: var(--primary-light);
+
+    color: white;
+
+    font-size: 1.2rem;
+
+    cursor: pointer;
+
+    box-shadow: var(--shadow);
+
+    display: block;
+
+    z-index: 1000;
+}
+
+#backToTop:hover {
+
+    transform: scale(1.1);
+}
+/* =========================
+   SCROLL REVEAL
+========================= */
+
+.project-card,
+.research-item,
+.education-card,
+.timeline-item,
+.publication-card {
+
+    opacity: 0;
+
+    transform: translateY(30px);
+
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.show {
+
+    opacity: 1;
+
+    transform: translateY(0);
+}
+
+/* =========================
+   ACTIVE NAV LINK
+========================= */
+
+.navbar a.active {
+
+    color: var(--primary-light);
+
+    font-weight: 700;
+}
+
+/* =========================
+   BACK TO TOP BUTTON
+========================= */
+
+#backToTop {
+
+    position: fixed;
+
+    bottom: 25px;
+    right: 25px;
+
+    width: 55px;
+    height: 55px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: var(--primary-light);
+
+    color: white;
+
+    font-size: 1.2rem;
+
+    cursor: pointer;
+
+    box-shadow: var(--shadow);
+
+    display: none;
+
+    z-index: 1000;
+}
+
+#backToTop:hover {
+
+    transform: scale(1.1);
+}
