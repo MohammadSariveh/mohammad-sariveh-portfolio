@@ -1,84 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mohammad Sariveh | Academic Portfolio</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mohammad Sariveh | Academic Portfolio</title>
+
+    <meta name="description"
+        content="Academic Portfolio of Mohammad Sariveh - Electrical Engineer, Data Science Enthusiast and Future PhD Researcher.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
 </head>
+
 <body>
-<header>
-<div class="container nav">
-<div class="logo">Mohammad Sariveh</div>
-<nav>
-<a href="#about">About</a>
-<a href="#research">Research</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
-<button id="theme-toggle">🌙</button>
-</div>
-</header>
 
-<section class="hero">
-<div class="container">
-<h1>Mohammad Sariveh</h1>
-<h2>Electrical Engineer • Aspiring Data Scientist • Future PhD Researcher</h2>
-<p>Interested in Machine Learning, Artificial Intelligence, Statistical Learning and Data-Driven Engineering Solutions.</p>
-<a class="btn" href="cv.pdf">Download CV</a>
-</div>
-</section>
+    <!-- HEADER -->
 
-<section id="about" class="section container">
-<h3>About Me</h3>
-<p>Electrical Engineer with strong interests in Data Science, Machine Learning, Deep Learning and Artificial Intelligence.</p>
-</section>
+    <header class="header">
 
-<section id="research" class="section alt">
-<div class="container">
-<h3>Research Interests</h3>
-<div class="grid">
-<div class="card">Machine Learning</div>
-<div class="card">Deep Learning</div>
-<div class="card">Artificial Intelligence</div>
-<div class="card">Statistical Learning</div>
-<div class="card">Data Science</div>
-<div class="card">Predictive Modeling</div>
-</div>
-</div>
-</section>
+        <div class="container">
 
-<section id="skills" class="section container">
-<h3>Technical Skills</h3>
-<div class="grid">
-<div class="card">Python</div><div class="card">NumPy</div><div class="card">Pandas</div>
-<div class="card">Matplotlib</div><div class="card">SQL</div><div class="card">Git</div>
-<div class="card">Linux</div><div class="card">Machine Learning</div>
-<div class="card">Deep Learning</div>
-</div>
-</section>
+            <div class="logo">
+                Mohammad Sariveh
+            </div>
 
-<section id="projects" class="section alt">
-<div class="container">
-<h3>Featured Projects</h3>
-<div class="grid">
-<div class="project"><h4>Python Projects</h4><p>Programming and automation projects.</p></div>
-<div class="project"><h4>Data Analysis</h4><p>EDA and visualization projects.</p></div>
-<div class="project"><h4>Machine Learning</h4><p>Predictive modeling projects.</p></div>
-</div>
-</div>
-</section>
+            <nav class="navbar">
 
-<section id="contact" class="section container">
-<h3>Contact</h3>
-<p>Email: m.sariveh@gmail.com</p>
-<p>GitHub: github.com/MohammadSariveh</p>
-</section>
+                <ul>
 
-<button id="topBtn">↑</button>
-<script src="script.js"></script>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+            <button id="theme-toggle">
+                🌙
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section id="home" class="hero">
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <h1>
+                    Mohammad Sariveh
+                </h1>
+
+                <h2>
+                    Electrical Engineer
+                </h2>
+
+                <h3 class="hero-subtitle">
+                    Machine Learning Research Enthusiast |
+                    Future PhD Researcher
+                </h3>
+
+                <p>
+
+                    Interested in Artificial Intelligence,
+                    Machine Learning, Statistical Learning,
+                    Data Science, and Engineering Applications of AI.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#contact" class="btn primary-btn">
+                        Contact Me
+                    </a>
+
+                    <a href="cv.pdf"
+                        class="btn secondary-btn"
+                        download>
+
+                        Download CV
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                About Me
+            </h2>
+
+            <p class="about-text">
+
+                Mohammad Sariveh is an Electrical Engineer with a strong interest in
+                Data Science, Machine Learning, and Artificial Intelligence.
+
+                He is currently expanding his expertise in statistical learning,
+                data analysis, and modern machine learning techniques with the goal
+                of pursuing a Ph.D. and conducting impactful research in AI-driven technologies.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- EDUCATION -->
+
+    <section id="education" class="section gray-section">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Education
+            </h2>
+
+            <div class="education-card">
+
+                <h3>
+                    Master of Science (M.Sc.)
+                </h3>
+
+                <p>
+                    Electrical Engineering
+                </p>
+
+            </div>
+
+            <div class="education-card">
+
+                <h3>
+                    Bachelor of Science (B.Sc.)
+                </h3>
+
+                <p>
+                    Electrical Engineering
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- RESEARCH -->
+
+    <section id="research" class="section">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Research Interests
+            </h2>
+
+            <div class="research-grid">
+
+                <div class="research-item">Machine Learning</div>
+                <div class="research-item">Deep Learning</div>
+                <div class="research-item">Artificial Intelligence</div>
+                <div class="research-item">Data Science</div>
+                <div class="research-item">Statistical Learning</div>
+                <div class="research-item">Predictive Modeling</div>
+                <div class="research-item">Data Mining</div>
+                <div class="research-item">Pattern Recognition</div>
+                <div class="research-item">Computational Intelligence</div>
+                <div class="research-item">Signal Processing</div>
+                <div class="research-item">Data Analytics</div>
+                <div class="research-item">AI Applications in Engineering</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="section gray-section">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Projects
+            </h2>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+
+                    <h3>
+                        Python Programming Projects
+                    </h3>
+
+                    <p>
+                        Programming, automation, data processing,
+                        and software development projects using Python.
+                    </p>
+
+                </div>
+
+                <div class="project-card">
+
+                    <h3>
+                        Assembly Language Projects
+                    </h3>
+
+                    <p>
+                        x86 Assembly programming projects focused on
+                        low-level system development.
+                    </p>
+
+                </div>
+
+                <div class="project-card">
+
+                    <h3>
+                        Data Analysis Projects
+                    </h3>
+
+                    <p>
+                        Exploratory Data Analysis, visualization,
+                        and statistical modeling projects.
+                    </p>
+
+                </div>
+
+                <div class="project-card">
+
+                    <h3>
+                        Machine Learning Projects
+                    </h3>
+
+                    <p>
+                        Ongoing machine learning projects related to
+                        predictive modeling and AI applications.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PUBLICATIONS -->
+
+    <section id="publications" class="section">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Publications
+            </h2>
+
+            <div class="publication-card">
+
+                <h3>
+                    Academic Publications
+                </h3>
+
+                <p>
+
+                    Research articles, conference papers,
+                    journal publications, and scholarly works
+                    will be listed here as they become available.
+
+                </p>
+
+                <span class="coming-soon">
+                    Coming Soon
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- EXPERIENCE -->
+
+    <section id="experience" class="section gray-section">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Experience & Activities
+            </h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <h3>
+                        Electrical Engineering Background
+                    </h3>
+
+                    <p>
+
+                        Academic training in Electrical Engineering with
+                        strong foundations in mathematics,
+                        problem-solving, and analytical thinking.
+
+                    </p>
+
+                </div>
+
+                <div class="timeline-item">
+
+                    <h3>
+                        Transition to Data Science
+                    </h3>
+
+                    <p>
+
+                        Developing expertise in Python,
+                        Statistics, Machine Learning,
+                        and Artificial Intelligence.
+
+                    </p>
+
+                </div>
+
+                <div class="timeline-item">
+
+                    <h3>
+                        Future Research Goals
+                    </h3>
+
+                    <p>
+
+                        Pursuing advanced research in
+                        Machine Learning, AI-driven systems,
+                        and data-centric engineering solutions.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Contact
+            </h2>
+
+            <p class="contact-email">
+
+                Email:
+
+                <a href="mailto:m.sariveh@gmail.com">
+                    m.sariveh@gmail.com
+                </a>
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 Mohammad Sariveh | Academic Portfolio
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
